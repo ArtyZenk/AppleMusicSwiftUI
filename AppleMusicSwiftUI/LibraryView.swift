@@ -9,7 +9,28 @@ import SwiftUI
 
 struct LibraryView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            TabView {
+                MainView()
+                    .tabItem {
+                        Image(systemName: "music.note.house")
+                        Text("Медиатека")
+                    }
+                RadioView()
+                    .tabItem {
+                        Image(systemName: "dot.radiowaves.left.and.right")
+                        Text("Радио")
+                    }
+                Text("Search")
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Поиск")
+                    }
+            }
+            .accentColor(.red)
+            PlayerView()
+                .padding(.bottom, 40)
+        }
     }
 }
 
@@ -18,3 +39,4 @@ struct LibraryView_Previews: PreviewProvider {
         LibraryView()
     }
 }
+
