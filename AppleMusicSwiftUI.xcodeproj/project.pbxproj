@@ -71,11 +71,8 @@
 		F3B43E8F280D4A1F00B5C07D /* AppleMusicSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F3B43EAA280D4CDC00B5C07D /* Model */,
-				F3B43E96280D4A1F00B5C07D /* Preview Content */,
-				F3B43E9E280D4AFC00B5C07D /* App */,
-				F3B43EA2280D4BFE00B5C07D /* View */,
-				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
+				F3ECF6B7280D556200877F7B /* Sources */,
+				F3ECF6B8280D557000877F7B /* Resources */,
 			);
 			path = AppleMusicSwiftUI;
 			sourceTree = "<group>";
@@ -159,6 +156,25 @@
 				F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */,
 			);
 			path = Radio;
+			sourceTree = "<group>";
+		};
+		F3ECF6B7280D556200877F7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43E9E280D4AFC00B5C07D /* App */,
+				F3B43EAA280D4CDC00B5C07D /* Model */,
+				F3B43EA2280D4BFE00B5C07D /* View */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F3ECF6B8280D557000877F7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43E96280D4A1F00B5C07D /* Preview Content */,
+				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -399,7 +415,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
