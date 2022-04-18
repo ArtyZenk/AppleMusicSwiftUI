@@ -97,7 +97,7 @@
 			children = (
 				F3B43EA1280D4BF600B5C07D /* Library */,
 				F3B43EA7280D4C9B00B5C07D /* Main */,
-				F3B43EAB280D4D4700B5C07D /* PlayerView.swift */,
+				F3B43EAD280D4DA100B5C07D /* Player */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +117,14 @@
 				F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F3B43EAD280D4DA100B5C07D /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43EAB280D4D4700B5C07D /* PlayerView.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
