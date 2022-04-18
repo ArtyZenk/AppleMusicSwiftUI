@@ -19,6 +19,7 @@
 		F3B43EB2280D4EEE00B5C07D /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB1280D4EEE00B5C07D /* RadioView.swift */; };
 		F3B43EB6280D4F7F00B5C07D /* HorizontalAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB5280D4F7F00B5C07D /* HorizontalAlbumView.swift */; };
 		F3B43EB8280D4FC900B5C07D /* VerticalAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */; };
+		F3B43EBA280D500500B5C07D /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB9280D500500B5C07D /* AlbumModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F3B43EB1280D4EEE00B5C07D /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 		F3B43EB5280D4F7F00B5C07D /* HorizontalAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAlbumView.swift; sourceTree = "<group>"; };
 		F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalAlbumView.swift; sourceTree = "<group>"; };
+		F3B43EB9280D500500B5C07D /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */,
+				F3B43EB9280D500500B5C07D /* AlbumModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				F3B43EB2280D4EEE00B5C07D /* RadioView.swift in Sources */,
 				F3B43EAF280D4DD500B5C07D /* SongsFilterView.swift in Sources */,
 				F3B43EA6280D4C6A00B5C07D /* MainViewSettings.swift in Sources */,
+				F3B43EBA280D500500B5C07D /* AlbumModel.swift in Sources */,
 				F3B43EB8280D4FC900B5C07D /* VerticalAlbumView.swift in Sources */,
 				F3B43E91280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
