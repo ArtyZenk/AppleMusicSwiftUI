@@ -51,7 +51,7 @@
 		F3B43E8F280D4A1F00B5C07D /* AppleMusicSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F3B43E90280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift */,
+				F3B43E9E280D4AFC00B5C07D /* App */,
 				F3B43E92280D4A1F00B5C07D /* ContentView.swift */,
 				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
 				F3B43E96280D4A1F00B5C07D /* Preview Content */,
@@ -65,6 +65,14 @@
 				F3B43E97280D4A1F00B5C07D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3B43E9E280D4AFC00B5C07D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43E90280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
