@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F3B43E91280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43E90280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift */; };
-		F3B43E93280D4A1F00B5C07D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43E92280D4A1F00B5C07D /* ContentView.swift */; };
 		F3B43E95280D4A1F00B5C07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B43E94280D4A1F00B5C07D /* Assets.xcassets */; };
 		F3B43E98280D4A1F00B5C07D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B43E97280D4A1F00B5C07D /* Preview Assets.xcassets */; };
+		F3B43EA0280D4B8C00B5C07D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43E9F280D4B8C00B5C07D /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3B43E8D280D4A1F00B5C07D /* AppleMusicSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B43E90280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicSwiftUIApp.swift; sourceTree = "<group>"; };
-		F3B43E92280D4A1F00B5C07D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3B43E94280D4A1F00B5C07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B43E97280D4A1F00B5C07D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3B43E9F280D4B8C00B5C07D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F3B43E9E280D4AFC00B5C07D /* App */,
-				F3B43E92280D4A1F00B5C07D /* ContentView.swift */,
+				F3B43E9F280D4B8C00B5C07D /* LibraryView.swift */,
 				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
 				F3B43E96280D4A1F00B5C07D /* Preview Content */,
 			);
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B43E93280D4A1F00B5C07D /* ContentView.swift in Sources */,
+				F3B43EA0280D4B8C00B5C07D /* LibraryView.swift in Sources */,
 				F3B43E91280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
