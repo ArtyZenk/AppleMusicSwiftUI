@@ -14,6 +14,7 @@
 		F3B43EA4280D4C2D00B5C07D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EA3280D4C2D00B5C07D /* MainView.swift */; };
 		F3B43EA6280D4C6A00B5C07D /* MainViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EA5280D4C6A00B5C07D /* MainViewSettings.swift */; };
 		F3B43EA9280D4CCE00B5C07D /* SongsFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */; };
+		F3B43EAC280D4D4700B5C07D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EAB280D4D4700B5C07D /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F3B43EA3280D4C2D00B5C07D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F3B43EA5280D4C6A00B5C07D /* MainViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewSettings.swift; sourceTree = "<group>"; };
 		F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsFilterModel.swift; sourceTree = "<group>"; };
+		F3B43EAB280D4D4700B5C07D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				F3B43EA1280D4BF600B5C07D /* Library */,
 				F3B43EA7280D4C9B00B5C07D /* Main */,
+				F3B43EAB280D4D4700B5C07D /* PlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				F3B43EA9280D4CCE00B5C07D /* SongsFilterModel.swift in Sources */,
 				F3B43EA0280D4B8C00B5C07D /* LibraryView.swift in Sources */,
 				F3B43EA4280D4C2D00B5C07D /* MainView.swift in Sources */,
+				F3B43EAC280D4D4700B5C07D /* PlayerView.swift in Sources */,
 				F3B43EA6280D4C6A00B5C07D /* MainViewSettings.swift in Sources */,
 				F3B43E91280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
