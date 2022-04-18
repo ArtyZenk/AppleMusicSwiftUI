@@ -16,7 +16,7 @@ struct LibraryView: View {
                         Image(systemName: "music.note.house")
                         Text("Медиатека")
                     }
-                RadioView()
+                Text("fs")
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
