@@ -16,6 +16,11 @@
 		F3B43EA9280D4CCE00B5C07D /* SongsFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */; };
 		F3B43EAC280D4D4700B5C07D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EAB280D4D4700B5C07D /* PlayerView.swift */; };
 		F3B43EAF280D4DD500B5C07D /* SongsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EAE280D4DD500B5C07D /* SongsFilterView.swift */; };
+		F3B43EB2280D4EEE00B5C07D /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB1280D4EEE00B5C07D /* RadioView.swift */; };
+		F3B43EB6280D4F7F00B5C07D /* HorizontalAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB5280D4F7F00B5C07D /* HorizontalAlbumView.swift */; };
+		F3B43EB8280D4FC900B5C07D /* VerticalAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */; };
+		F3B43EBA280D500500B5C07D /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EB9280D500500B5C07D /* AlbumModel.swift */; };
+		F3B43EBC280D504300B5C07D /* RadioStationAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B43EBB280D504300B5C07D /* RadioStationAlbum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsFilterModel.swift; sourceTree = "<group>"; };
 		F3B43EAB280D4D4700B5C07D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		F3B43EAE280D4DD500B5C07D /* SongsFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsFilterView.swift; sourceTree = "<group>"; };
+		F3B43EB1280D4EEE00B5C07D /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		F3B43EB5280D4F7F00B5C07D /* HorizontalAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAlbumView.swift; sourceTree = "<group>"; };
+		F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalAlbumView.swift; sourceTree = "<group>"; };
+		F3B43EB9280D500500B5C07D /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		F3B43EBB280D504300B5C07D /* RadioStationAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationAlbum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +71,8 @@
 		F3B43E8F280D4A1F00B5C07D /* AppleMusicSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F3B43EAA280D4CDC00B5C07D /* Model */,
-				F3B43E96280D4A1F00B5C07D /* Preview Content */,
-				F3B43E9E280D4AFC00B5C07D /* App */,
-				F3B43EA2280D4BFE00B5C07D /* View */,
-				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
+				F3ECF6B7280D556200877F7B /* Sources */,
+				F3ECF6B8280D557000877F7B /* Resources */,
 			);
 			path = AppleMusicSwiftUI;
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 		F3B43EA2280D4BFE00B5C07D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F3B43EB4280D4F4900B5C07D /* Radio */,
 				F3B43EA1280D4BF600B5C07D /* Library */,
 				F3B43EA7280D4C9B00B5C07D /* Main */,
 				F3B43EAD280D4DA100B5C07D /* Player */,
@@ -118,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B43EA8280D4CCE00B5C07D /* SongsFilterModel.swift */,
+				F3B43EB9280D500500B5C07D /* AlbumModel.swift */,
+				F3B43EBB280D504300B5C07D /* RadioStationAlbum.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -136,6 +146,35 @@
 				F3B43EAE280D4DD500B5C07D /* SongsFilterView.swift */,
 			);
 			path = SongsFilter;
+			sourceTree = "<group>";
+		};
+		F3B43EB4280D4F4900B5C07D /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43EB1280D4EEE00B5C07D /* RadioView.swift */,
+				F3B43EB5280D4F7F00B5C07D /* HorizontalAlbumView.swift */,
+				F3B43EB7280D4FC900B5C07D /* VerticalAlbumView.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		F3ECF6B7280D556200877F7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43E9E280D4AFC00B5C07D /* App */,
+				F3B43EAA280D4CDC00B5C07D /* Model */,
+				F3B43EA2280D4BFE00B5C07D /* View */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F3ECF6B8280D557000877F7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3B43E96280D4A1F00B5C07D /* Preview Content */,
+				F3B43E94280D4A1F00B5C07D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,11 +248,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B43EA9280D4CCE00B5C07D /* SongsFilterModel.swift in Sources */,
+				F3B43EB6280D4F7F00B5C07D /* HorizontalAlbumView.swift in Sources */,
 				F3B43EA0280D4B8C00B5C07D /* LibraryView.swift in Sources */,
 				F3B43EA4280D4C2D00B5C07D /* MainView.swift in Sources */,
 				F3B43EAC280D4D4700B5C07D /* PlayerView.swift in Sources */,
+				F3B43EB2280D4EEE00B5C07D /* RadioView.swift in Sources */,
 				F3B43EAF280D4DD500B5C07D /* SongsFilterView.swift in Sources */,
 				F3B43EA6280D4C6A00B5C07D /* MainViewSettings.swift in Sources */,
+				F3B43EBC280D504300B5C07D /* RadioStationAlbum.swift in Sources */,
+				F3B43EBA280D500500B5C07D /* AlbumModel.swift in Sources */,
+				F3B43EB8280D4FC900B5C07D /* VerticalAlbumView.swift in Sources */,
 				F3B43E91280D4A1F00B5C07D /* AppleMusicSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +386,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -371,7 +415,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleMusicSwiftUI/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 9DSLGCL4J8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
